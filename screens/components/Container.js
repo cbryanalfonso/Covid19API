@@ -8,7 +8,7 @@ export default function Container(props) {
 	const darkTheme = useContext(theme).darkTheme
     return(
         <>
-            <ScrollView style= {[styles.container, {backgroundColor: 'red'}]} contentContainerStyle={{flexGrow: 1}} >
+            <ScrollView style= {[styles.container, {backgroundColor: 'black'}]} contentContainerStyle={{flexGrow: 1}} >
                     {props.children}
             </ScrollView>
         </>
